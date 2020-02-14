@@ -7,14 +7,29 @@
 //
 
 import UIKit
+import WebKit
+
+
+class Pokemon {
+    var name: String = ""
+    var type: String = ""
+    var type2: String = ""
+    var descript: String = ""
+    
+    
+}
 
 class PokedexDetailViewController: UIViewController {
 
+    var entry : Pokemon?
+    var pokeUrl: URL?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
+    
+
     
 
     /*
